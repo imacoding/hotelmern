@@ -1,0 +1,78 @@
+ #rentalListing {
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .rental-detail-link {
+    &:hover {
+      text-decoration: none;
+    }
+
+    .bwm-card {
+      .card-block {
+        .card-subtitle {
+          color: blue !important;
+        }
+
+        .card-text {
+          position: relative;
+
+          p {
+            color: #7A9DE8;
+            font-size:1rem;
+          }
+
+        p:before {
+    content: "";
+    width: 20%;
+    height: 1px;
+    background-color: red;
+    position: absolute;
+    bottom: 85%;
+    
+    
+  }
+        span{
+         color:red;
+        }
+        }
+
+        .card-title {
+          color:#000;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.bwm-card {
+  border: none;
+  margin-bottom: 20px;
+
+  .card-block {
+    padding-top: 8px;
+
+    .card-subtitle {
+      margin: 0;
+      font-weight: 500;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    .card-title {
+      font-size: 19px;
+      margin: 3px 0;
+      color: $main-text-gray-color;
+    }
+
+    .card-text {
+      font-size: 14px;
+      font-weight: 300;
+      color: #7e7e7e;
+      margin-bottom: 0;
+    }
+  }
+}

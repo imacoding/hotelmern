@@ -1,0 +1,79 @@
+{
+  "name": "hotelmern",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.3.6",
+    "base-64": "^1.0.0",
+    "bootstrap": "^4.1.1",
+    "bootstrap-daterangepicker": "^2.1.30",
+    "browserify-cipher": "^1.0.1",
+    "buffer": "^6.0.3",
+    "camel-case": "^4.1.2",
+    "cloudinary-react": "^1.8.1",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "font-awesome": "^4.7.0",
+    "jose": "^4.14.4",
+    "jsonwebtoken": "^9.0.0",
+    "leaflet": "^1.9.3",
+    "leaflet-geosearch": "^3.8.0",
+    "moment": "^2.29.4",
+    "node-sass": "^8.0.0",
+    "node-sass-chokidar": "^2.0.0",
+    "ol": "^7.3.0",
+    "popper.js": "^1.16.1",
+    "react": "^18.2.0",
+    "react-bootstrap-daterangepicker": "^4.1.0",
+    "react-dom": "^18.2.0",
+    "react-final-form": "^6.5.9",
+    "react-leaflet": "^4.2.1",
+    "react-openlayers": "^0.3.0",
+    "react-redux": "^8.0.5",
+    "react-responsive-modal": "^6.4.1",
+    "react-router-dom": "^6.11.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.2",
+    "redux": "^4.2.1",
+    "redux-form": "^8.3.10",
+    "redux-thunk": "^2.4.2",
+    "sass": "^1.62.1",
+    "stream": "0.0.2",
+    "stream-browserify": "^3.0.0",
+    "titleize": "^3.0.0",
+    "typescript": "^5.0.4",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4"
+  },
+  "browser": {
+    "crypto": false
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
